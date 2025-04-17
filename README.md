@@ -8,18 +8,21 @@ Presentation on radiosondes geared toward amateur radio operators
 * What - Measures conditions at various layers of the atmosphere.
   * Temperature, humidity, wind speed, etc.
 * How
-  * Balloon - provides lift. Expands during ascention until bursting.
+  * Balloon - Helium or Hydrogen filled. Provides lift. Expands during ascention until bursting.
   * Parachute - slows down the descent to safe speed
   * Payload - radiosonde. Uses GPS and sensors to collect data that is sent to a ground station with a radio transmitter. Most commonly 400-406 MHz
 * Who - Weather agencies (NWS in US), educational/research, military
 * Why - Develop weather models/forecasts. Monitor severe weather conditions.
 * Where - Many, but not all NWS offices. Universities. Military bases.
 * When - Regularly (twice daily, etc.), during specific weather conditions, before specific activities
+* NWS Upper Air website has a lot of information
 
 ## SondeHub and how it works
 * SondeHub.org - Tracker for radiosondes
 * amateur.sondehub.org
 * Data submitted by volunteer stations
+* No login needed
+* Review settings area
 * While in flight, provides forward predictions and reverse predictions
 * Launch sites
   * Generates predictions for future launches
@@ -31,6 +34,7 @@ Presentation on radiosondes geared toward amateur radio operators
   * Python developed for Linux
   * Raspberry Pi (etc) and 1+ RTL-SDR dongle (TCXO required)
   * AirSpy or SDRplay - more bandwidth
+  * Configuration
 * Antenna
   * Homebrew 1/4 wave ground plane
   * Many dual-band verticals work well
@@ -55,7 +59,7 @@ Presentation on radiosondes geared toward amateur radio operators
   * Live predictions from SondeHub
   * With GPS and Wi-Fi, can update chase position to SondeHub
   * Hardware
-    * Older 433 Semtech boards
+    * Older 433 MHz Semtech LoRa boards
     * LilyGo LoRa32 V2.1_1.6
         * Better RX
         * Display
@@ -90,6 +94,7 @@ Presentation on radiosondes geared toward amateur radio operators
   * Throw lines
   * Drone
   * Canoe
+* Report your recovery
 
 ## What you can do with the sonde
 * Collect
@@ -110,14 +115,23 @@ Presentation on radiosondes geared toward amateur radio operators
 * Practice tracking
 * Free hardware
 
+## Q&A
+* SondeHub Discord
+
 ## Links
-https://sondehub.org/
-https://github.com/projecthorus/radiosonde_auto_rx/wiki
-https://m0ukd.com/calculators/quarter-wave-ground-plane-antenna-calculator/
-https://store.uputronics.com/products/uputronics-filtered-preamps?variant=48292157325646
-https://v3.airspy.us/product/upu-fp403s/
-https://github.com/projecthorus/chasemapper
-https://github.com/dl9rdz/rdz_ttgo_sonde
-https://github.com/dl9rdz/rdz_ttgo_sonde/wiki
-https://github.com/mikaelnousiainen/RS41ng
+* [NWS Upper Air](https://www.weather.gov/upperair/)
+* [SondeHub](https://sondehub.org/)
+* [SondeHub Amateur](https://amateur.sondehub.org/)
+* [SondeHub Discord](https://sondehub.org/go/discord)
+* [radiosonde_auto_rx](https://github.com/projecthorus/radiosonde_auto_rx/wiki)
+* [1/4 ground plane calc](https://m0ukd.com/calculators/quarter-wave-ground-plane-antenna-calculator/)
+* [Uputronics filter](https://store.uputronics.com/products/uputronics-filtered-preamps?variant=48292157325646)
+* [Uputronics filter at Airspy.us](https://v3.airspy.us/product/upu-fp403s/)
+* [Chasemapper](https://github.com/projecthorus/chasemapper)
+* [RDZ TTGO Sonde GitHub](https://github.com/dl9rdz/rdz_ttgo_sonde)
+* [RDZ TTGO Sonde Wiki](https://github.com/dl9rdz/rdz_ttgo_sonde/wiki)
+* [LilyGo LoRa32 V2.1_1.6](https://lilygo.cc/products/lora3?variant=42272562249909)
+* [LilyGo LoRa32 Amazon](https://www.amazon.com/LILYGO-LoRa32-433Mhz-Development-Paxcounter/dp/B0B45L398K)
+* [LilyGo T-Beam](https://lilygo.cc/products/t-beam?variant=43059202654389)
+* [RS41ng Firmware for radiosondes](https://github.com/mikaelnousiainen/RS41ng)
 
