@@ -35,6 +35,8 @@ Presentation on radiosondes geared toward amateur radio operators
   * Homebrew 1/4 wave ground plane
   * Many dual-band verticals work well
   * Seen good results even with the diplole included with RTL kits
+  * Collinear
+  * Yagi
 * Filter / preamp
 * Why run my own station if there are others?
   * Redundancy
