@@ -1,7 +1,6 @@
-# radiosondes4hams
-Presentation on radiosondes geared toward amateur radio operators
-
 # Tracking Weather Balloons - Radiosondes 🎈
+Outline / notes for presentation on radiosondes geared toward amateur radio operators
+
 2024-04-17 - Presented to the Crowley's Ridge Amateur Radio Club via Zoom
 
 ## What is a weather balloon / radiosonde
@@ -22,6 +21,7 @@ Presentation on radiosondes geared toward amateur radio operators
 * amateur.sondehub.org
 * Data submitted by volunteer stations
 * No login needed
+* Looks a little different on mobile, but has the same features. Might have to rotate to landscape.
 * Review settings area
 * While in flight, provides forward predictions and reverse predictions
 * Launch sites
@@ -58,6 +58,7 @@ Presentation on radiosondes geared toward amateur radio operators
   * Display, web server, Android app, KISS TNC
   * Live predictions from SondeHub
   * With GPS and Wi-Fi, can update chase position to SondeHub
+  * Doesn't scan the entire band
   * Hardware
     * Older 433 MHz Semtech LoRa boards
     * LilyGo LoRa32 V2.1_1.6
@@ -115,14 +116,17 @@ Presentation on radiosondes geared toward amateur radio operators
 * Practice tracking
 * Free hardware
 
-## Q&A
-* SondeHub Discord
+## Questions
+* [SondeHub Discord](https://sondehub.org/go/discord)
+  * Great for technical questions and also sonde information
+* [FB Group: Radiosonde North America - NWS Weather Balloon](https://www.facebook.com/groups/444260440607754/)
+  * Photos and stories of hunts and recoveries
+* My email is [good on QRZ](https://www.qrz.com/db/ae5au)
 
 ## Links
 * [NWS Upper Air](https://www.weather.gov/upperair/)
 * [SondeHub](https://sondehub.org/)
 * [SondeHub Amateur](https://amateur.sondehub.org/)
-* [SondeHub Discord](https://sondehub.org/go/discord)
 * [radiosonde_auto_rx](https://github.com/projecthorus/radiosonde_auto_rx/wiki)
 * [1/4 ground plane calc](https://m0ukd.com/calculators/quarter-wave-ground-plane-antenna-calculator/)
 * [Uputronics filter](https://store.uputronics.com/products/uputronics-filtered-preamps?variant=48292157325646)
@@ -134,4 +138,3 @@ Presentation on radiosondes geared toward amateur radio operators
 * [LilyGo LoRa32 Amazon](https://www.amazon.com/LILYGO-LoRa32-433Mhz-Development-Paxcounter/dp/B0B45L398K)
 * [LilyGo T-Beam](https://lilygo.cc/products/t-beam?variant=43059202654389)
 * [RS41ng Firmware for radiosondes](https://github.com/mikaelnousiainen/RS41ng)
-
